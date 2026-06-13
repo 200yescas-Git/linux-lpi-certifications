@@ -30,7 +30,7 @@ El objetivo es construir un portafolio técnico escalable que refleje el progres
 
 ## Certificaciones documentadas
 
-- [ ] Linux Essentials
+- [*] Linux Essentials
 - [ ] LPIC-1
 - [ ] LPIC-2
 - [ ] LPIC-3
