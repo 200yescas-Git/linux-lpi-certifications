@@ -53,3 +53,6 @@ El objetivo es construir un portafolio técnico escalable que refleje el progres
 **Autor:** Yescas  
 **Ingeniero en Sistemas | Linux | Redes | Ciberseguridad | DevOps**
 
+## License
+
+This project is licensed under the MIT License. See the LICENSE file for details.
