@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/banner/lpi-logo-colour-reverse.svg" width="900"/>
+  <img src="assets/banners/lpi-logo-colour-reverse.svg" width="900"/>
 </p>
 
 <h1 align="center">LPIC Study Repository</h1>
