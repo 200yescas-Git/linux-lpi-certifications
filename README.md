@@ -50,8 +50,6 @@ El objetivo es construir un portafolio técnico escalable que refleje el progres
 - Automatización
 - DevOps Fundamentals
 
-
-
 **Autor:** Yescas  
 **Ingeniero en Sistemas | Linux | Redes | Ciberseguridad | DevOps**
 
