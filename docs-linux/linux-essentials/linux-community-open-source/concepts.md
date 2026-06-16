@@ -1,6 +1,6 @@
 # Free Software Philosophy
 
-## Objetivo
+## Objective
 Comprender los principios fundamentales del Software Libre, su origen, sus libertades esenciales y su impacto en la tecnología moderna.
 
 ---
