@@ -35,6 +35,26 @@ Las licencias de Software Libre garantizan las cuatro libertades fundamentales e
 
 Las licencias Open Source permiten el acceso al código fuente y promueven el desarrollo colaborativo. Aunque comparten muchas características con el Software Libre, suelen enfocarse más en los beneficios prácticos del desarrollo abierto.
 
+### FOSS (Free and Open Source Software)
+
+Término utilizado para describir software que combina los principios del Software Libre y del Código Abierto.
+
+### FLOSS (Free/Libre and Open Source Software)
+
+Variante de FOSS que enfatiza el concepto de libertad ("Libre") para evitar confusiones con el significado de "Free" como gratuito.
+
+## Types of Licenses
+
+### Free Software Licenses
+
+Licencias que garantizan las libertades fundamentales de los usuarios para ejecutar, estudiar, modificar y redistribuir software.
+
+Ejemplos:
+
+- GNU GPL
+- GNU LGPL
+- GNU AGPL
+
 ### Copyleft
 
 El copyleft es un mecanismo utilizado en algunas licencias para garantizar que las versiones modificadas del software mantengan las mismas libertades que la versión original.
