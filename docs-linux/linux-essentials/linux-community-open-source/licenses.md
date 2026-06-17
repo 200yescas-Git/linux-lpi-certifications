@@ -65,6 +65,17 @@ Este principio evita que terceros conviertan software libre en software propieta
 
 Las licencias permisivas permiten una mayor flexibilidad en el uso y redistribución del software. Generalmente permiten incorporar el código en proyectos propietarios sin la obligación de liberar las modificaciones.
 
+### CC0 (Creative Commons Zero)
+
+Herramienta legal que permite a los autores renunciar a sus derechos de autor en la medida permitida por la ley.
+
+Características:
+
+- Uso libre.
+- Modificación libre.
+- Redistribución libre.
+- No requiere atribución.
+
 ### Proprietary License
 
 Las licencias propietarias restringen el acceso al código fuente y limitan la capacidad de los usuarios para modificar o redistribuir el software.
