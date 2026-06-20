@@ -22,7 +22,14 @@ En esta sección vamos a conocer la línea de comandos,ubicar el intérprete de 
 
 ## Topics Covered
 
-- Command-Line
+- command-line-basics → Comandos básicos
+- using-command-help → Las ayudas en la Línea de comando
+- directories-files → Navegar por los directorios
+- creating-moving-deleting → Diferentes comandos de acciones sobre archivos
+
+---
+
+
 
 
 
