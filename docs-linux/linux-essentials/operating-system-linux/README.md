@@ -23,9 +23,10 @@ En esta sección vamos a conocer la línea de comandos,ubicar el intérprete de 
 ## Topics Covered
 
 - command-line- → Comandos básicos
+- special-characters-and-wildcards → Caracteres y uso del comodín
 - using-command-help → Las ayudas en la Línea de comando
-- directories-files → Navegar por los directorios
-- creating-moving-deleting → Diferentes comandos de acciones sobre archivos
+- files-directories → Navegar por los directorios
+-  → Diferentes comandos de acciones sobre archivos
 
 ---
 
