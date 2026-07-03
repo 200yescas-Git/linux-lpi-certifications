@@ -15,3 +15,9 @@ Desarrollar las habilidades fundamentales en el uso de la terminal de Linux medi
 
 ---
 
+## Commands Used
+
+- pwd
+- ls
+- cd
+- 
