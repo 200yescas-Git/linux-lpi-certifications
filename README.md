@@ -90,6 +90,8 @@ El objetivo es construir una base sólida de conocimientos y experiencia prácti
 - Ciberseguridad
 - Automatización y DevOps
 - Cloud Computing
+- Entornos Mixtos ( Linux y Active Directory )
+- BSD Enterprise 
 
 **Autor:** Yescas  
 **Automatización | Linux | Redes | Ciberseguridad | DevOps | Cloud Computing | Mixed Environments | BSD Specialist | SRE |**
