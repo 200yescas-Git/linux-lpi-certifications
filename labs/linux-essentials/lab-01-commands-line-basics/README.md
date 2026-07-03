@@ -16,9 +16,6 @@ Aprender el uso de los comandos fundamentales de la línea de comandos de Linux 
 
 ---
 
-## Syntax
-
-
 ## Commands Used
 
 - pwd
@@ -28,6 +25,22 @@ Aprender el uso de los comandos fundamentales de la línea de comandos de Linux 
 - type
 - which
 - uname
+
+---
+
+## Syntax
+
+```bash
+pwd [OPTION]
+ls [OPTION] [FILE]
+cd [DIRECTORY]
+echo [OPTION] [STRING]
+type [OPTION] NAME
+which [OPTION] PROGRAM
+uname [OPTION]
+```
+
+---
 
 ## Main Options
 
