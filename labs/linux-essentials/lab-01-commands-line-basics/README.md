@@ -51,4 +51,16 @@ uname [OPTION]
 | -L | Shows logical path (follows symbolic links) |
 | -P | Shows physical path (resolves symbolic links) |
 
+## ls
+
+| Option | Description |
+|--------|-------------|
+| -l | Long listing format |
+| -a | Show hidden files |
+| -h | Human readable file sizes |
+| -R | Recursive listing |
+| -t | Sort by modification time |
+| -S | Sort by file size |
+
+
 
