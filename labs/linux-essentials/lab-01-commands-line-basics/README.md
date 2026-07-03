@@ -2,10 +2,6 @@
 
 ## Objetive
 
-## Objetivo
-
-## Objetivo
-
 Aprender el uso de los comandos fundamentales de la línea de comandos de Linux para navegar por el sistema de archivos, visualizar información básica del sistema, imprimir información en la terminal e identificar la ubicación y el tipo de los comandos disponibles en el entorno Bash.
 
 ---
@@ -26,5 +22,7 @@ Aprender el uso de los comandos fundamentales de la línea de comandos de Linux 
 - type
 - which
 - uname
+
+## Main Options
 
 
