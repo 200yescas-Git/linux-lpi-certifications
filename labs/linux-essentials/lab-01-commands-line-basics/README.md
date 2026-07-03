@@ -62,5 +62,44 @@ uname [OPTION]
 | -t | Sort by modification time |
 | -S | Sort by file size |
 
+## cd
+
+| Option | Description |
+|--------|-------------|
+| - | Switch to previous directory |
+| ~ | Switch to home directory |
+
+# echo
+
+## Main Options
+
+| Option | Description |
+|--------|-------------|
+| -n | Do not output trailing newline |
+| -e | Enable interpretation of backslash escapes |
+
+## type
+
+| Option | Description |
+|--------|-------------|
+| -a | Show all locations of command |
+| -t | Show type of command (alias, builtin, file) |
+| -p | Show path of executable |
+
+## which
+
+| Option | Description |
+|--------|-------------|
+| -a | Show all matches in PATH |
+
+## uname
+
+| Option | Description |
+|--------|-------------|
+| -a | Show all system information |
+| -r | Kernel version |
+| -m | Machine hardware name |
+| -n | Network node hostname |
+| -s | Kernel name |
 
 
