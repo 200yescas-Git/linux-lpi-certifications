@@ -13,6 +13,9 @@ Aprender el uso de los comandos fundamentales de la línea de comandos de Linux 
 
 ---
 
+## Syntax
+
+
 ## Commands Used
 
 - pwd
