@@ -8,7 +8,10 @@ Aprender el uso de los comandos fundamentales de la línea de comandos de Linux 
 
 ## Environment
 
-- Debian 13.4.0 Trixie
+- OS: Linux (Debian 13.4.0 Trixie )
+- Shell: Bash
+- User: Non-root user
+- Terminal: xfce Terminal / CLI ( Terminator )
 - VMware Workstation 16 Player
 
 ---
