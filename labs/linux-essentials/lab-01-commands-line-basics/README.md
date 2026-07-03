@@ -4,7 +4,9 @@
 
 ## Objetivo
 
-Desarrollar las habilidades fundamentales en el uso de la terminal de Linux mediante la ejecución de comandos básicos para la navegación, administración de archivos y directorios, consulta de información del sistema y manipulación del entorno de trabajo. Estas competencias constituyen la base para la administración de servidores, automatización y tecnologías de infraestructura.
+## Objetivo
+
+Aprender el uso de los comandos fundamentales de la línea de comandos de Linux para navegar por el sistema de archivos, visualizar información básica del sistema, imprimir información en la terminal e identificar la ubicación y el tipo de los comandos disponibles en el entorno Bash.
 
 ---
 
@@ -20,4 +22,9 @@ Desarrollar las habilidades fundamentales en el uso de la terminal de Linux medi
 - pwd
 - ls
 - cd
-- 
+- echo
+- type
+- which
+- uname
+
+
