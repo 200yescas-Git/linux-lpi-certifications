@@ -44,4 +44,11 @@ uname [OPTION]
 
 ## Main Options
 
+### pwd
+
+| Option | Description |
+|--------|-------------|
+| -L | Shows logical path (follows symbolic links) |
+| -P | Shows physical path (resolves symbolic links) |
+
 
