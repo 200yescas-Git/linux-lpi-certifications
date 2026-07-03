@@ -100,4 +100,43 @@ uname [OPTION]
 | -n | Network node hostname |
 | -s | Kernel name |
 
+---
+
+## Examples
+
+### Navigation
+
+```bash
+pwd
+ls
+cd /
+ls -l /etc
+```
+
+### System Information
+
+```bash
+uname -a
+uname -r
+uname -m
+```
+
+### Command Identification
+
+```bash
+type ls
+which ls
+type -a ls
+```
+
+### Text Output
+
+```bash
+echo "Hello Linux"
+echo $HOME
+echo -n "No newline"
+```
+
+---
+
 
