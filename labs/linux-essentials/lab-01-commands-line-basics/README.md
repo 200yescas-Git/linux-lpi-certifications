@@ -51,7 +51,7 @@ uname [OPTION]
 | -L | Shows logical path (follows symbolic links) |
 | -P | Shows physical path (resolves symbolic links) |
 
-## ls
+### ls
 
 | Option | Description |
 |--------|-------------|
@@ -62,23 +62,21 @@ uname [OPTION]
 | -t | Sort by modification time |
 | -S | Sort by file size |
 
-## cd
+### cd
 
 | Option | Description |
 |--------|-------------|
 | - | Switch to previous directory |
 | ~ | Switch to home directory |
 
-# echo
-
-## Main Options
+### echo
 
 | Option | Description |
 |--------|-------------|
 | -n | Do not output trailing newline |
 | -e | Enable interpretation of backslash escapes |
 
-## type
+### type
 
 | Option | Description |
 |--------|-------------|
@@ -86,13 +84,13 @@ uname [OPTION]
 | -t | Show type of command (alias, builtin, file) |
 | -p | Show path of executable |
 
-## which
+### which
 
 | Option | Description |
 |--------|-------------|
 | -a | Show all matches in PATH |
 
-## uname
+### uname
 
 | Option | Description |
 |--------|-------------|
