@@ -143,7 +143,7 @@ echo -n "No newline"
 
 Agrego evidencias de la práctica realizada.se encuentran en el siguiente directorio:
 
-`assets/linux-essentials/screenshots/labs/lab-01-command-line-basics`
+```assets/linux-essentials/screenshots/labs/lab-01-command-line-basics```
 
 ## Conclusion
 
