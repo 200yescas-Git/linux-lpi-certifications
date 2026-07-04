@@ -139,4 +139,15 @@ echo -n "No newline"
 
 ---
 
+## Evidence
+
+Agrego evidencias de la práctica realizada.se encuentran en el siguiente directorio:
+
+`assets/linux-essentials/screenshots/labs/lab-01-command-line-basics`
+
+## Conclusion
+
+La realización de este laboratorio permitió adquirir una comprensión práctica de los conceptos fundamentales de la línea de comandos en Linux. Durante el desarrollo de las actividades se reforzó el uso de comandos básicos para la navegación del sistema de archivos, la exploración de directorios y la obtención de información del sistema, estableciendo una base sólida para laboratorios de mayor complejidad.
+
+Este laboratorio representa el inicio de una ruta de formación enfocada en la administración de sistemas Linux, donde cada práctica documentada fortalece tanto las habilidades técnicas como la capacidad de documentar procesos de manera profesional, siguiendo buenas prácticas utilizadas en entornos empresariales.
 
