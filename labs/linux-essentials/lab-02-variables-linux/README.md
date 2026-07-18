@@ -2,7 +2,7 @@
 
 ## Objective
 
-Descripción breve del objetivo del laboratorio.
+Documentar los fundamentos de las variables en Bash, comprendiendo su creación, asignación, expansión, exportación y administración dentro del entorno Linux.
 
 ---
 
@@ -18,15 +18,12 @@ Descripción breve del objetivo del laboratorio.
 
 ## Commands Used
 
-Listado de todos los comandos utilizados durante el laboratorio.
-
 ```bash
-echo
-printenv
+set
 env
 export
+echo
 unset
-set
 ```
 
 ---
@@ -78,18 +75,8 @@ Uso del comando y explicación.
 Ejemplos prácticos realizados durante el laboratorio.
 
 ```bash
-MY_VAR="Linux"
 
-echo $MY_VAR
-
-export MY_VAR
-
-printenv MY_VAR
-
-unset MY_VAR
 ```
-
-Puedes agregar varios ejemplos conforme avance el laboratorio.
 
 ---
 
