@@ -100,10 +100,132 @@ unset -f FUNCTION
 
 ## Examples
 
-Ejemplos prácticos realizados durante el laboratorio.
+### `set`
 
 ```bash
+# Display all shell variables and functions
+set
 
+# Display current shell options
+set -o
+
+# Enable debug mode
+set -x
+
+echo "Hello World"
+
+# Disable debug mode
+set +x
+
+# Exit immediately if a command fails
+set -e
+
+# Print shell input lines as they are read
+set -v
+
+# Treat unset variables as an error
+set -u
+```
+
+---
+
+### `env`
+
+```bash
+# Display all environment variables
+env
+
+# Display the HOME environment variable
+env | grep HOME
+
+# Execute Bash with a temporary environment variable
+env USERNAME=Brayan bash
+
+# Start Bash with an empty environment
+env -i bash
+
+# Execute Bash without the HOME variable
+env -u HOME bash
+```
+
+---
+
+### `export`
+
+```bash
+# Export a variable
+export USERNAME=Brayan
+
+# Verify the exported variable
+echo $USERNAME
+
+# Export the default editor
+export EDITOR=nano
+
+# Add a directory to PATH
+export PATH=$PATH:/opt/scripts
+
+# Display exported variables
+export -p
+
+# Remove the export attribute
+export -n USERNAME
+```
+
+---
+
+### `echo`
+
+```bash
+# Display text
+echo "Hello World"
+
+# Display the current user
+echo $USER
+
+# Display the home directory
+echo $HOME
+
+# Display the current working directory
+echo $PWD
+
+# Print with a newline
+echo -e "Linux\nEssentials"
+
+# Print with a tab
+echo -e "Name\tAge"
+
+# Print without a trailing newline
+echo -n "Loading..."
+```
+
+---
+
+### `unset`
+
+```bash
+# Create a variable
+VARIABLE=Linux
+
+# Display the variable
+echo $VARIABLE
+
+# Remove the variable
+unset VARIABLE
+
+# Verify it has been removed
+echo $VARIABLE
+
+# Create a function
+my_function() {
+    echo "Hello"
+}
+
+# Execute the function
+my_function
+
+# Remove the function
+unset -f my_function
 ```
 
 ---
