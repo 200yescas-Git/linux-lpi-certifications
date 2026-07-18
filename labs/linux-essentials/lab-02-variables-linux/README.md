@@ -33,13 +33,14 @@ unset
 Ejemplo:
 
 ```bash
-VARIABLE=value
-
-echo $VARIABLE
-
+set [options] [arguments]
+env
+env VARIABLE=value command
 export VARIABLE
-
+export VARIABLE=value
+echo [options] text
 unset VARIABLE
+unset -f FUNCTION
 ```
 
 ---
