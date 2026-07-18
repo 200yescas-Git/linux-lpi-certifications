@@ -30,8 +30,6 @@ unset
 
 ## Syntax
 
-Explicación de la sintaxis utilizada.
-
 Ejemplo:
 
 ```bash
