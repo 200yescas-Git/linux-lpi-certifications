@@ -1,153 +1,107 @@
-# Lab 02 - Variables linux
+# Lab 02 - Variables
 
-## Objetive
+## Objective
 
-Aprender el uso de los comandos fundamentales de la línea de comandos de Linux para navegar por el sistema de archivos, visualizar información básica del sistema, imprimir información en la terminal e identificar la ubicación y el tipo de los comandos disponibles en el entorno Bash.
+Descripción breve del objetivo del laboratorio.
 
 ---
 
 ## Environment
 
-- OS: Linux (Debian 13.4.0 Trixie )
-- Shell: Bash
-- User: Non-root user
-- Terminal: xfce Terminal / CLI ( Terminator )
-- VMware Workstation 16 Player
+
 
 ---
 
 ## Commands Used
 
-- pwd
-- ls
-- cd
-- echo
-- type
-- which
-- uname
+Listado de todos los comandos utilizados durante el laboratorio.
+
+```bash
+echo
+printenv
+env
+export
+unset
+set
+```
 
 ---
 
 ## Syntax
 
+Explicación de la sintaxis utilizada.
+
+Ejemplo:
+
 ```bash
-pwd [OPTION]
-ls [OPTION] [FILE]
-cd [DIRECTORY]
-echo [OPTION] [STRING]
-type [OPTION] NAME
-which [OPTION] PROGRAM
-uname [OPTION]
+VARIABLE=value
+
+echo $VARIABLE
+
+export VARIABLE
+
+unset VARIABLE
 ```
 
 ---
 
 ## Main Options
 
-### pwd
+Explicación de las opciones más importantes de cada comando utilizado.
+
+Ejemplo:
+
+### printenv
 
 | Option | Description |
-|--------|-------------|
-| -L | Shows logical path (follows symbolic links) |
-| -P | Shows physical path (resolves symbolic links) |
+|---------|-------------|
+| VARIABLE | Display a specific environment variable. |
 
-### ls
-
-| Option | Description |
-|--------|-------------|
-| -l | Long listing format |
-| -a | Show hidden files |
-| -h | Human readable file sizes |
-| -R | Recursive listing |
-| -t | Sort by modification time |
-| -S | Sort by file size |
-
-### cd
+### env
 
 | Option | Description |
-|--------|-------------|
-| - | Switch to previous directory |
-| ~ | Switch to home directory |
+|---------|-------------|
+| -i | Start with an empty environment. |
 
-### echo
+### export
 
-| Option | Description |
-|--------|-------------|
-| -n | Do not output trailing newline |
-| -e | Enable interpretation of backslash escapes |
-
-### type
-
-| Option | Description |
-|--------|-------------|
-| -a | Show all locations of command |
-| -t | Show type of command (alias, builtin, file) |
-| -p | Show path of executable |
-
-### which
-
-| Option | Description |
-|--------|-------------|
-| -a | Show all matches in PATH |
-
-### uname
-
-| Option | Description |
-|--------|-------------|
-| -a | Show all system information |
-| -r | Kernel version |
-| -m | Machine hardware name |
-| -n | Network node hostname |
-| -s | Kernel name |
+Uso del comando y explicación.
 
 ---
 
 ## Examples
 
-### Navigation
+Ejemplos prácticos realizados durante el laboratorio.
 
 ```bash
-pwd
-ls
-cd /
-ls -l /etc
+MY_VAR="Linux"
+
+echo $MY_VAR
+
+export MY_VAR
+
+printenv MY_VAR
+
+unset MY_VAR
 ```
 
-### System Information
-
-```bash
-uname -a
-uname -r
-uname -m
-```
-
-### Command Identification
-
-```bash
-type ls
-which ls
-type -a ls
-```
-
-### Text Output
-
-```bash
-echo "Hello Linux"
-echo $HOME
-echo -n "No newline"
-```
+Puedes agregar varios ejemplos conforme avance el laboratorio.
 
 ---
 
 ## Evidence
 
-Agrego evidencias de la práctica realizada.se encuentran en el siguiente directorio:
+Capturas de pantalla del laboratorio.
 
-```assets/linux-essentials/screenshots/labs/lab-01-command-line-basics```
+Ejemplo:
+
+```text
+assets/screenshots/
+```
+
+---
 
 ## Conclusion
 
-La realización de este laboratorio permitió adquirir una comprensión práctica de los conceptos fundamentales de la línea de comandos en Linux. Durante el desarrollo de las actividades se reforzó el uso de comandos básicos para la navegación del sistema de archivos, la exploración de directorios y la obtención de información del sistema, estableciendo una base sólida para laboratorios de mayor complejidad.
-
-Este laboratorio representa el inicio de una ruta de formación enfocada en la administración de sistemas Linux, donde cada práctica documentada fortalece tanto las habilidades técnicas como la capacidad de documentar procesos de manera profesional, siguiendo buenas prácticas utilizadas en entornos empresariales.
+Resumen de los conocimientos adquiridos y la importancia del laboratorio dentro de Linux Essentials.
 
