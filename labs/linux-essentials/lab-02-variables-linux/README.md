@@ -47,25 +47,54 @@ unset -f FUNCTION
 
 ## Main Options
 
-Explicación de las opciones más importantes de cada comando utilizado.
-
-Ejemplo:
-
-### printenv
+### set
 
 | Option | Description |
-|---------|-------------|
-| VARIABLE | Display a specific environment variable. |
+|--------|-------------|
+| `-a` | Automatically export all created or modified variables. |
+| `-b` | Notify immediately when background jobs terminate. |
+| `-e` | Exit immediately if a command returns a non-zero status. |
+| `-f` | Disable filename expansion (globbing). |
+| `-h` | Remember command locations (hashing). |
+| `-m` | Enable job control. |
+| `-n` | Read commands without executing them. |
+| `-u` | Treat unset variables as an error. |
+| `-v` | Print shell input lines as they are read. |
+| `-x` | Print commands and arguments before execution (debug mode). |
+| `+x` | Disable debug mode. |
+| `-o` | Display or set shell options. |
 
 ### env
 
 | Option | Description |
-|---------|-------------|
-| -i | Start with an empty environment. |
+|--------|-------------|
+| `-i` | Start with an empty environment. |
+| `-u VARIABLE` | Remove a variable from the environment. |
+| `--help` | Display command help information. |
+| `--version` | Display the installed version. |
 
 ### export
 
-Uso del comando y explicación.
+| Option | Description |
+|--------|-------------|
+| `-n` | Remove the export attribute from a variable. |
+| `-p` | Display all exported variables. |
+| `-f` | Export shell functions (Bash). |
+
+### echo
+
+| Option | Description |
+|--------|-------------|
+| `-n` | Do not output the trailing newline. |
+| `-e` | Enable interpretation of backslash escape sequences. |
+| `-E` | Disable interpretation of escape sequences (default in Bash). |
+
+### unset
+
+| Option | Description |
+|--------|-------------|
+| `-f` | Remove a shell function. |
+| `-v` | Remove a shell variable (default behavior). |
 
 ---
 
