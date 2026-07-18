@@ -8,7 +8,11 @@ Descripción breve del objetivo del laboratorio.
 
 ## Environment
 
-
+- OS: Linux (Debian 13.4.0 Trixie )
+- Shell: Bash
+- User: Non-root user
+- Terminal: xfce Terminal / CLI ( Terminator )
+- VMware Workstation 16 Player
 
 ---
 
